@@ -1,3 +1,0 @@
-Header header
-geometry_msgs/Vector3 linear_acceleration
-float32 temperature
