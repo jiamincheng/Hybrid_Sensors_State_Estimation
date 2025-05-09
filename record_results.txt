@@ -1,0 +1,59 @@
+boxes_6dof  
+Mean APE	        0.821561  
+Path Length	        45.3203  
+Mean Position Error	1.81  
+Mean Yaw Error	    0.0196  
+
+boxes_translation  
+Mean APE	        0.303708  
+Path Length	        25.963340  
+Mean Position Error	1.17  
+Mean Yaw Error	    0.0174  
+
+dynamic_6dof  
+Mean APE	        0.261287  
+Path Length	        7.776618  
+Mean Position Error	3.36  
+Mean Yaw Error	    0.0419  
+
+dynamic_translation  
+Mean APE	        0.164184  
+Path Length	        9.372379  
+Mean Position Error	1.75  
+Mean Yaw Error	    0.0272  
+
+hdr_boxes  
+Mean APE	        0.521772  
+Path Length	        18.688571  
+Mean Position Error	2.79  
+Mean Yaw Error	    0.0228  
+
+hdr_poster  
+Mean APE	        0.359125  
+Path Length	        12.145958  
+Mean Position Error	2.96  
+Mean Yaw Error	    0.0130  
+
+poster_6dof  
+Mean APE	        936.211307  
+Path Length	        4765.692968  
+Mean Position Error	19.64  
+Mean Yaw Error	    0.000203  
+
+poster_translation  
+Mean APE	        0.220195  
+Path Length	        10.875852  
+Mean Position Error	2.02  
+Mean Yaw Error	    0.0366  
+
+shapes_6dof  
+Mean APE	        698.198657  
+Path Length	        4413.131810  
+Mean Position Error	15.82  
+Mean Yaw Error	    0.000164  
+
+shapes_translation  
+Mean APE	        698.103551  
+Path Length	        4413.131810  
+Mean Position Error	15.82  
+Mean Yaw Error	    0.000158  
