@@ -30,11 +30,11 @@ catkin init
 catkin config --extend /opt/ros/melodic --cmake-args -DCMAKE_BUILD_TYPE=Release
 ```
 
-Clone the Ultimate SLAM repository:
+Clone this repository:
 
 ```bash
 cd src
-git clone git@github.com:uzh-rpg/rpg_ultimate_slam_open.git
+git clone https://github.com/jiamincheng/Hybrid_Sensors_State_Estimation.git
 ```
 
 Install dependencies using `vcs-import`:
@@ -58,3 +58,21 @@ roslaunch ze_vio_ceres ijrr17.launch bag_filename:=dynamic_6dof.bag
 ```
 
 Replace `dynamic_6dof.bag` with your own rosbag if needed.
+
+## Dataset and Evaluation
+
+### Datasets
+
+- **Simulated Data** from the [Event Camera Dataset](https://rpg.ifi.uzh.ch/davis_data.html), based on the DAVIS 240 simulator. Includes ground truth pose, event stream, grayscale frames, and IMU data.
+- **Real-World Data** collected with the DAVIS 346 sensor in indoor environments, using hand-held motion and varying lighting conditions.
+
+### Evaluation Metrics
+
+The system is evaluated using:
+
+- Mean Position Error (MPE)
+- Mean Yaw Error (MYE)
+
+### Example Results
+
+[View Demo Video](https://your_video_link_here) 
