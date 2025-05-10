@@ -1,10 +1,10 @@
 # Hybrid_Sensors_State_Estimation
 
-This project explores a hybrid state estimation framework that fuses data from **event cameras**, **standard frame-based cameras**, and **IMU sensors** to enhance localization accuracy in dynamic and visually degraded environments.
+This project explores a hybrid state estimation framework that fuses data from **event cameras**, **standard cameras**, and **IMUs** to enhance  state estimation accuracy in dynamic and visually degraded environments.
 
-![DAVIS Sensors](fig/f1.png)
+![DAVIS Sensors](Pictures/fig1.png)
 
-## Installation and Usage
+## Installation
 
 System Requirements
 
@@ -59,20 +59,22 @@ roslaunch ze_vio_ceres ijrr17.launch bag_filename:=dynamic_6dof.bag
 
 Replace `dynamic_6dof.bag` with your own rosbag if needed.
 
-## Dataset and Evaluation
+## Dataset
 
-### Datasets
+- Simulated Data from the [Event Camera Dataset](https://rpg.ifi.uzh.ch/davis_data.html), based on the DAVIS 240 simulator. Includes ground truth pose, event stream, grayscale frames, and IMU data.
+- Real-World Data collected with the DAVIS 346 sensor in indoor environments, using hand-held motion and varying lighting conditions.
 
-- **Simulated Data** from the [Event Camera Dataset](https://rpg.ifi.uzh.ch/davis_data.html), based on the DAVIS 240 simulator. Includes ground truth pose, event stream, grayscale frames, and IMU data.
-- **Real-World Data** collected with the DAVIS 346 sensor in indoor environments, using hand-held motion and varying lighting conditions.
-
-### Evaluation Metrics
-
-The system is evaluated using:
+Evaluation Metrics
 
 - Mean Position Error (MPE)
 - Mean Yaw Error (MYE)
 
 ### Example Results
 
-[View Demo Video](https://your_video_link_here) 
+[View Demo Video](Pictures/record1.mp4) 
+
+[View Demo Video](Pictures/record2.mp4) 
+
+[View Demo Video](Pictures/record3.mp4) 
+
+[View Demo Video](Pictures/record4.mp4) 
