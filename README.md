@@ -71,10 +71,4 @@ Evaluation Metrics
 
 ### Example Results
 
-[View Demo Video](Pictures/record1.mp4) 
-
-[View Demo Video](Pictures/record2.mp4) 
-
-[View Demo Video](Pictures/record3.mp4) 
-
-[View Demo Video](Pictures/record4.mp4) 
+[View Demo Video](https://drive.google.com/file/d/1Fty3oI6187ylfvltUHEuMPrDNF01KqCv/view?usp=sharing)
